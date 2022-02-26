@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+
+.header,
+#player,
+.score,
+.points {
+    display: flex;
+    align-items: center;
+    font-size: 36px;
+}
+
+#player,
+.score,
+.points {
+    justify-content: space-between;
+}
+
+.body,
+#container {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+html {
+    background-color: rgb(129, 126, 126);
+    color: white;
+}
+
+body {
+    font-family: 'Confortaa', sans-serif;
+    text-align: center;
+}
+
+.header {
+    justify-content: center;
+}
+
+.title {
+    font-size: 36px;
+}
+
+.score {
+    font-size: 20px;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+.points {
+    padding-left: 29%;
+    padding-right: 29%;
+}
